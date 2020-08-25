@@ -381,16 +381,28 @@ p{
 }
 
 	.villas{
-		padding: 2% 1% 2% 1%;
+		margin-top:-10%;
+		font-size:40px;
+		display:inline-block;
+		margin-left:55%;
+		padding: 2% 5% 2% 5%;
 		background:grey;
 	}
 	.outskirts{
-		padding: 2% 1% 2% 1%;
+		margin-top:-10%;
+		font-size:40px;
+		display:inline-block;
+		margin-right:55%;
+		padding: 2% 5% 2% 5%;
 		background:grey;
 	}
 	.blocks{
-		padding: 2% 1% 2% 1%;
-		background:grey;
+		margin-top:-10%;
+		font-size:40px;
+		display:inline-block;
+		margin-left:48%;
+		padding: 2% 5% 2% 5%;
+		background:grey;	
 	}
 
 	footer{
