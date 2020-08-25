@@ -1,5 +1,3 @@
-/* Should be empty until you compile your LESS */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -53,7 +51,226 @@ table {
 /* Home page */
 
 
+/* Nav Menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
 
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+  }
+
+/* Home page */
+
+
+
+/* Services Page */
+
+
+
+/* Contact Page */ 
+
+h1{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    padding-top: 145px;
+    padding-left: 5%;
+    line-height: 24px;
+}
+.maincontactform h2{
+    font-size: 28px;
+    font-weight: bold;
+    color:#222222;
+}
+.contactlocation h2{
+    font-size: 28px;
+    font-weight: bold;
+    color:#222222;
+}
+.contactlocation h3{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.maincontactform h4{
+    font-size: 12px;
+    color: gray;
+}
+
+
+
+*{
+	box-sizing:border-box;
+}
+
+
+/* CSS For service page*/ 
+
+
+.intro{
+	font-size: 1.5rem;
+	line-height: 1.4;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 1%
+	
+}
+
+.servicehead {
+	border: 10px solid red;
+	font-size: 1.5rem;
+}
+.servicenav{
+	font-size: 1.5rem;
+}
+
+.servicetabs :hover{
+	background-color: blue;
+	color:white;
+	
+}
+
+.tabsection{
+	border: 5px solid orange;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.servicetabs{
+	margin: 0 auto;
+}
+
+.constinfo, .preinfo, .build, .designinfo{
+	border: 5px dotted purple;
+	display:flex;
+	padding: 3%;
+}
+
+.maincontent h2{
+	font-size:28px;
+    width: 40%;
+    padding-bottom: 5%;
+}
+
+.build p, .designinfo p, .constinfo p, .preinfo p{
+	border: 5px solid green;
+	float: left;
+	margin-top: 3%;
+	line-height: 1.3;
+	font-size: 1.6rem
+
+}
+
+.servicepic{
+	border: 3px dotted orange;
+}
+
+.servicefoot{
+	border: 10px solid pink;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+}
+
+form label{
+    padding-top: 6%;
+    padding-bottom: 1%;
+    font-size: 16px;
+}
+
+
+.headerimage{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/contact/contact-jumbotron.png);
+    width: 100%;
+    height: 200px;
+    opacity: 100%;
+    alt: "Skyscrapers from the bottom looking up.";
+}
+
+.maincontent{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.maincontent p{
+    margin: 0px;
+    margin-top: 2%;
+    font-weight: normal;
+}
+
+.maincontactform{
+    align-self: center;    
+    width: 25%;
+    padding-right: 5%;
+    white-space: nowrap;
+}
+
+.maincontactform h4{
+    padding-top: 1%;
+    white-space: nowrap;
+}
+
+.contactlocation{
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.bordered{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b1b1b1;
+    border-width: 1px;
+}
+
+input[type=submit]{
+    background: white;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 1px;
+    width: 125px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #222222;
+    border-radius: 0px;
+}
+
+textarea{
+    overflow: hidden;
+}
+
+.radiodivico{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contactlocation{
+    width: 20%;
+    padding-left: 5%;
+}
+.contactlocation p{
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.contactlocation h3{
+    font-weight: bold;
+    padding-top: 7%;
+    padding-bottom: 1%;
+}
 
 
 /* Nav Menu */
@@ -102,13 +319,11 @@ table {
 	  margin:0 0 10% 20%;
   }
   .info1{
-	  margin-top:5%;
-	  margin-right:2%;
+	  
 	  width:40%;
   }
   .info2{
-	  margin-top:5%;
-	margin-left:2%;
+	
 	width:40%;
 }
   .work{
@@ -139,12 +354,12 @@ h4{
 	margin-bottom:5%;
 	font-size:200%;
 }
+
 button{
-	font-size:15px;
-	margin-top:5%;
 	padding:3% 5% 3% 5%;
 background-color:white;
 }
+
 
 .middle-content{
 	margin-left:20%;
@@ -166,27 +381,15 @@ p{
 }
 
 	.villas{
-		margin-top:-10%;
-		font-size:40px;
-		display:inline-block;
-		margin-left:55%;
-		padding: 2% 5% 2% 5%;
+		padding: 2% 1% 2% 1%;
 		background:grey;
 	}
 	.outskirts{
-		margin-top:-10%;
-		font-size:40px;
-		display:inline-block;
-		margin-right:55%;
-		padding: 2% 5% 2% 5%;
+		padding: 2% 1% 2% 1%;
 		background:grey;
 	}
 	.blocks{
-		margin-top:-10%;
-		font-size:40px;
-		display:inline-block;
-		margin-left:48%;
-		padding: 2% 5% 2% 5%;
+		padding: 2% 1% 2% 1%;
 		background:grey;
 	}
 
@@ -224,7 +427,7 @@ font-weight: bold;
 }
 	form input{
 		border-radius:5%;
-		padding:2% 30% 2% 2%;
+		padding:2% 2% 2% 2%;
 	}
 	.copy{
 		color:white;
@@ -352,5 +555,53 @@ margin-bottom: 15px;
 		}
 		.CA{
 			font-weight: bold;
-		}
+        }
+        
+.maincontent{
+    flex-direction: column;
+}
+
+input[type=submit]{
+    width: 100%;
+}
+
+.maincontactform{
+    align-self: center;    
+    width: 100%;
+    padding: 5%;
+    white-space: nowrap;
+}
+
+.maincontactform h4{
+padding-left: 8%;
+}
+
+.CNY{
+    padding-top: 50%;
+}
+
+}
+
+@media(max-width:800px){
+
+    .maincontent{
+        flex-direction: column;
+    }
+    
+    input[type=submit]{
+        width: 100%;
+    }
+    
+    .maincontactform{
+        align-self: center;    
+        width: 100%;
+        padding: 3%;
+        white-space: nowrap;
+    }
+    
+    .CNY{
+        padding-top: 25%;
+    }
+
+
 }
