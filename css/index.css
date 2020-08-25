@@ -63,11 +63,11 @@ table {
     display: none;
   }
 
-/* Home page */
 
 
 
-/* Services Page */
+
+
 
 
 
@@ -100,205 +100,6 @@ h1{
     font-size: 12px;
     color: gray;
 }
-
-
-
-
-
-/* CSS For service page*/ 
-
-
- 
-.servicehead {
-	
-	font-size: 1.5rem;
-}
-.servicenav{
-	font-size: 1.5rem;
-}
-
-
-.tabsection{
-	
-	display: flex;
-	flex-wrap: wrap;
-	
-}
-
-.servicetabs{
-	margin: 0 auto;
-}
-
-.constinfo, .preinfo, .build, .designinfo{
-	border: 5px dotted purple;
-	display:flex;
-	padding: 3%;
-}
-
-.maincontent h2{
-	font-size:28px;
-    width: 40%;
-    padding-bottom: 5%;
-}
-
-.build p, .designinfo p, .constinfo p, .preinfo p{
-	border: 5px solid green;
-	float: left;
-	margin-top: 3%;
-	line-height: 1.3;
-	font-size: 1.6rem
-
-}
-
-.servicepic{
-	border: 3px dotted orange;
-}
-
-.servicefoot{
-	border: 10px solid pink;
-}
-
-
-/* CSS For service page*/ 
-.servicetopnav {
-    overflow: hidden;
-    background-color: #333;
-	position: relative;
-
-}
- .headerimge1{
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-image: url(/img/services/services-jumbotron.png);
-    width: 100%;
-    height: 200px;
-    opacity: 100%;
-	alt: "Skyscraper.";
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.servicetopnav #myLinks {
-	display: none;
-  }
-  
-/* Style navigation menu links */
-.servicetopnav a {
-    color: #FFFFFF;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-	display: block;
-	
-  }
-/* Style the hamburger menu */
- a.icon {
-    background: rgba(0, 0, 0, 0);
-    display: block;
-    position: absolute;
-    right: 0;
-	top: 0;
-  }
-
-  .servicesintro{
-	  margin-left:0;
-	  width:100%;
-	font-size: 200%;;
-	line-height: 1.4;
-	
-}
-
-
-.worko-tabs {
-    margin: 20px;
-  	width: 80%;
-}
-.state{
-	position: absolute;
-	left: -10000px;
-  }
-  
-  .flex-tabs{
-
-	  margin-left:15%;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-  }
-
-  .tab {
-	  
-    border: 3px solid black;
-    margin: 3%;
-    background: white;
-  }
-
-	.tab{
-		flex-grow: 1;
-		max-height: 40px;
-	  }
-      
-	 .panel {
-          padding: 20px;
-          min-height: 200px;
-          display: none;
-          width: 100%;
-		  flex-basis: auto;
-		
-	  }
-	  
-	  .panel h3{
-		font-size: 20px;
-		color:black;
-		line-height: 1px;
-	}
-    
-    .tab {
-      display: inline-block;
-      padding: 10px;
-      vertical-align: top;
-      background-color: #eee;
-
-	}
-        .tab:hover{
-          background-color: #fff;
-		}
-		
-     
-#tab-one:checked ~ .tabs #tab-one-label,
-#tab-two:checked ~ .tabs #tab-two-label,
-#tab-three:checked ~ .tabs #tab-three-label,
-#tab-four:checked ~ .tabs #tab-four-label{
-    color:black;
-	cursor: default;
-	
-}
-
-#tab-one:checked ~ .tabs #tab-one-panel,
-#tab-two:checked ~ .tabs #tab-two-panel,
-#tab-three:checked ~ .tabs #tab-three-panel,
-#tab-four:checked ~ .tabs #tab-four-panel{
-    display: block;
-}
-
-
-footer{
-    justify-content: space-around;
-    display:flex;
-    padding:2%;
-    background:red;
-}
-form input{
-    border-radius:5%;
-    padding:2% 30% 2% 2%;
-}
-.copy{
-    background:red;
-    text-align: center;
-}
-
-
-
 
 
 
@@ -401,6 +202,8 @@ textarea{
     padding-bottom: 1%;
 } 
 
+
+/* Home page CSS */
 
 /* Nav Menu */
 .topnav {
@@ -744,5 +547,10 @@ padding-left: 8%;
         padding-top: 25%;
     }
 
-
+footer .form{
+margin-left:-115%;
+}
+.New{
+	margin-left:-15%;
+}
 }
